@@ -33,7 +33,7 @@ class RequestActor
      */
     protected $response;
 
-    public function __construct(\PHPUnit_Framework_TestCase $phpunit, Application $app)
+    public function __construct(\PHPUnit\Framework\TestCase $phpunit, Application $app)
     {
         $this->phpunit = $phpunit;
         $this->app = $app;
